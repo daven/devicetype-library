@@ -60,9 +60,9 @@ interfaces:
   - name: et-{module}/1/13
     type: 100gbase-x-sfpdd
   - name: et-{module}/2/0
-    type: 400gbase-x-qsfpdd
+    type: 100gbase-x-sfpdd
   - name: et-{module}/2/1
-    type: 400gbase-x-qsfpdd
+    type: 100gbase-x-sfpdd
   - name: et-{module}/2/2
     type: 100gbase-x-sfpdd
   - name: et-{module}/2/3
