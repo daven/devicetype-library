@@ -1,0 +1,40 @@
+---
+manufacturer: Juniper
+model: MX10004
+slug: juniper-mx10004
+part_number: JNP10004
+u_height: 7
+weight: 113.4
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+is_full_depth: true
+comments: >
+  '[Juniper MX304 Data Sheet]
+  (https://www.juniper.net/content/dam/www/assets/datasheets/us/en/routers/
+  mx10000-modular-universal-routing-platforms-datasheet.pdf)'
+module-bays:
+  - name: PEM0
+    label: PSU 0
+    position: PSU0
+  - name: PEM1
+    label: PSU 1
+    position: PSU1
+  - name: PEM2
+    label: PSU 2
+    position: PSU2
+  - name: RE0
+    label: CB0
+    position: '0'
+  - name: RE1
+    label: CB1
+    position: '1'
+  - name: LC0
+    position: '0'
+  - name: LC1
+    position: '1'
+  - name: LC2
+    position: '2'
+  - name: LC3
+    position: '3'
