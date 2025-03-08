@@ -11,28 +11,3 @@ interfaces:
     type: 1000base-t
     enabled: true
     mgmt_only: true
-front-ports:
-  - name: '{module}-USB'
-    type: usb-a
-    description: USB Removable Media Interface
-  - name: '{module}-BITS-0'
-    type: 8p8c
-    description: BITS clock port
-  - name: '{module}-BITS-1'
-    type: 8p8c
-    description: BITS clock port
-  - name: '{module}-TOD'
-    type: 8p8c
-    description: Time of Day port
-  - name: '{module}-10MHz-IN'
-    type: other
-    description: GPS 10MHz input
-  - name: '{module}-10MHz-OUT'
-    type: other
-    description: GPS 10MHz output
-  - name: '{module}-1PPS-IN'
-    type: other
-    description: GPS 1PPS input
-  - name: '{module}-1PPS-OUT'
-    type: other
-    description: GPS 1PPS output
