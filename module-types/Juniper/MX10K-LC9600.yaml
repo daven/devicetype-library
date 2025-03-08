@@ -1,0 +1,7 @@
+---
+manufacturer: Juniper
+model: MX10K-LC9600
+part_number: JNP10K-LC9600
+interfaces:
+  - name: et-{module}/0/[0-23]
+    type: 400gbase-x-qsfpdd
