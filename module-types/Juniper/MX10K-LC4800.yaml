@@ -3,15 +3,15 @@ manufacturer: Juniper
 model: MX10K-LC4800
 part_number: JNP10K-LC4800
 interfaces:
-  - name: et-{module}/0/[0-3]
+  - name: et-{module}/0/[0-1]
     type: 400gbase-x-qsfpdd
-  - name: et-{module}/1/[0-3]
+  - name: et-{module}/0/[2-13]
+    type: 100gbase-x-sfpdd
+  - name: et-{module}/1/[0-1]
     type: 400gbase-x-qsfpdd
-  - name: et-{module}/2/[0-3]
+  - name: et-{module}/1/[2-13]
+    type: 100gbase-x-sfpdd
+  - name: et-{module}/2/[0-1]
     type: 400gbase-x-qsfpdd
-  - name: et-{module}/3/[0-3]
-    type: 400gbase-x-qsfpdd
-  - name: et-{module}/4/[0-3]
-    type: 400gbase-x-qsfpdd
-  - name: et-{module}/5/[0-3]
-    type: 400gbase-x-qsfpdd
+  - name: et-{module}/2/[2-13]
+    type: 100gbase-x-sfpdd
